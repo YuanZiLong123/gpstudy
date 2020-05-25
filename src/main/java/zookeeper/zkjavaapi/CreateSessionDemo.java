@@ -1,4 +1,4 @@
-package rpc.zkjavaapi;
+package zookeeper.zkjavaapi;
 
 import org.apache.zookeeper.*;
 import org.apache.zookeeper.data.Stat;

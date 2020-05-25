@@ -1,4 +1,4 @@
-package rpc.curator;
+package zookeeper.curator;
 
 
 import org.apache.curator.framework.CuratorFramework;
