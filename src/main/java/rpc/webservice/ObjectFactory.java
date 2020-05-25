@@ -1,5 +1,5 @@
 
-package com.yzl.springcloud.webservice;
+package rpc.webservice;
 
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlElementDecl;

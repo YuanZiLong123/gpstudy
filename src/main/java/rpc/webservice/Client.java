@@ -1,4 +1,4 @@
-package com.yzl.springcloud.webservice;
+package rpc.webservice;
 
 /**
  * <p>

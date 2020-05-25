@@ -1,5 +1,5 @@
 
-package com.yzl.springcloud.webservice;
+package rpc.webservice;
 
 import java.net.MalformedURLException;
 import java.net.URL;

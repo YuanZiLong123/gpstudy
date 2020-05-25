@@ -1,4 +1,4 @@
-package com.yzl.springcloud.tocmat;
+package rpc.tocmat;
 
 /**
  * <p>
@@ -10,10 +10,12 @@ package com.yzl.springcloud.tocmat;
  */
 public class FirstServlet implements MyServlet {
 
+    @Override
     public  void doGet(MyHttpRequest request, MyHttpResponse response) {
         doPost(request, response);
     }
 
+    @Override
     public void doPost(MyHttpRequest request, MyHttpResponse response) {
 
         String param = "name";

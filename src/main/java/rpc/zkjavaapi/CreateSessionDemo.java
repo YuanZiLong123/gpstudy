@@ -1,4 +1,4 @@
-package com.yzl.springcloud.zkjavaapi;
+package rpc.zkjavaapi;
 
 import org.apache.zookeeper.*;
 import org.apache.zookeeper.data.Stat;
@@ -55,6 +55,7 @@ public class CreateSessionDemo implements Watcher {
     }
 
 
+    @Override
     public void process(WatchedEvent watchedEvent) {
         try {
             if (watchedEvent.getState()== Event.KeeperState.SyncConnected){

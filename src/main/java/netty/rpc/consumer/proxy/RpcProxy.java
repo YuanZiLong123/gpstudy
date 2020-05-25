@@ -39,6 +39,7 @@ public class RpcProxy {
 			this.clazz = clazz;
 		}
 
+		@Override
 		public Object invoke(Object proxy, Method method, Object[] args)  throws Throwable {
 			//如果传进来是一个已实现的具体类（本次演示略过此逻辑)
 			if (Object.class.equals(method.getDeclaringClass())) {

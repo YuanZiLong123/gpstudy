@@ -1,6 +1,6 @@
-package com.yzl.springcloud.rmi;
+package rpc.rmi;
 
-import com.yzl.springcloud.SerizableDome.User;
+import rpc.SerizableDome.User;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

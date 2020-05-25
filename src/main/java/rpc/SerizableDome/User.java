@@ -1,4 +1,4 @@
-package com.yzl.springcloud.SerizableDome;
+package rpc.SerizableDome;
 
 import java.io.Serializable;
 

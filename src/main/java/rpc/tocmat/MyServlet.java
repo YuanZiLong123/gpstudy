@@ -1,4 +1,4 @@
-package com.yzl.springcloud.tocmat;
+package rpc.tocmat;
 
 /**
  * <p>

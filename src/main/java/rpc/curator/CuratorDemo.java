@@ -1,4 +1,4 @@
-package com.yzl.springcloud.curator;
+package rpc.curator;
 
 
 import org.apache.curator.framework.CuratorFramework;

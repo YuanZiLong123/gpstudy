@@ -1,4 +1,4 @@
-package com.yzl.springcloud.zkclient;
+package rpc.zkclient;
 
 import org.I0Itec.zkclient.ZkClient;
 import org.apache.zookeeper.CreateMode;
@@ -23,6 +23,9 @@ public class ZkclientDemo  {
         zkClient.create(path, "123", CreateMode.PERSISTENT );
         zkClient.writeData(path,"456" );
         zkClient.getChildren(path);
+
+
+        zkClient.delete("/yzl");
 
     }
 

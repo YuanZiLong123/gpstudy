@@ -1,5 +1,5 @@
 
-package com.yzl.springcloud.webservice;
+package rpc.webservice;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
