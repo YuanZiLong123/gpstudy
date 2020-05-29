@@ -41,8 +41,8 @@ public class ChatServer {
                     .option(ChannelOption.SO_BACKLOG,1024 )
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         @Override
-                        protected void initChannel(SocketChannel SocketChannel) throws Exception {
-                            ChannelPipeline pipeline = SocketChannel.pipeline();
+                        protected void initChannel(SocketChannel socketChannel) throws Exception {
+                            ChannelPipeline pipeline = socketChannel.pipeline();
 
                           pipeline.addLast(new MyDecoder());
                             pipeline.addLast(new MyEncoder());

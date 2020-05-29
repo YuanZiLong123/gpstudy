@@ -7,6 +7,9 @@ import io.netty.channel.group.DefaultChannelGroup;
 import io.netty.util.AttributeKey;
 import io.netty.util.concurrent.GlobalEventExecutor;
 import netty.chat.server.protocol.Message;
+import org.springframework.util.StringUtils;
+
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @author admin
@@ -18,6 +21,7 @@ public class MessageProcessor {
     private static ChannelGroup onlineUsers = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
 
     private AttributeKey<String> NICK_NAME = AttributeKey.valueOf("nickName");
+
 
     /**
      * 获取用户昵称
@@ -50,10 +54,21 @@ public class MessageProcessor {
     public void chat(ChannelHandlerContext channelHandlerContext, Message message){
 
         Channel channel = channelHandlerContext.channel();
+        String toUser = message.getToName();
         for (Channel client : onlineUsers) {
             Message request = new Message("chat",getNickName(channel), onlineUsers.size(),message.getContent(),System.currentTimeMillis());
-            client.writeAndFlush(request);
+            if (StringUtils.isEmpty(toUser)){
+                client.writeAndFlush(request);
+            }else {
+                String nickName = getNickName(client);
+                if (nickName.equals(toUser)){
+                    client.writeAndFlush(request);
+                }
+            }
+
         }
+
+
     }
 
     public void login(ChannelHandlerContext channelHandlerContext, String nickName){
@@ -73,9 +88,10 @@ public class MessageProcessor {
         Channel client = channelHandlerContext.channel();
 
         //如果nickName为null，没有遵从聊天协议的连接，表示未非法登录
-        if(getNickName(client) == null){ return; }
+        String nickName = getNickName(client);
+        if(nickName == null){ return; }
         for (Channel channel : onlineUsers) {
-            Message request = new Message("system",getNickName(client), onlineUsers.size(), getNickName(client) + "离开",System.currentTimeMillis());
+            Message request = new Message("system",nickName, onlineUsers.size(), nickName + "离开",System.currentTimeMillis());
             channel.writeAndFlush(request);
         }
         onlineUsers.remove(client);

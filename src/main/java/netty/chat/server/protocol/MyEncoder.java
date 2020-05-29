@@ -5,6 +5,9 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToByteEncoder;
 import org.msgpack.MessagePack;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**
 *@Description: 自定义编码
 *@Author: yzl
@@ -12,8 +15,12 @@ import org.msgpack.MessagePack;
 */
 public class MyEncoder extends MessageToByteEncoder<Message> {
 
+
     @Override
     protected void encode(ChannelHandlerContext channelHandlerContext, Message message, ByteBuf byteBuf) throws Exception {
         byteBuf.writeBytes(new MessagePack().write(message));
     }
+
+
+
 }

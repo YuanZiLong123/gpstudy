@@ -22,6 +22,7 @@ public class Message {
 
     private Long sysTime;
 
+    private String toName;
 
     public String getType() {
         return type;
@@ -87,6 +88,13 @@ public class Message {
         this.content = content;
         this.sysTime = sysTime;
     }
+    public Message(String type,String toName, Long sysTime, String nickName, String content) {
+        this.type = type;
+        this.nickName = nickName;
+        this.content = content;
+        this.sysTime = sysTime;
+        this.toName = toName;
+    }
 
     public Message(String type, String nickName, int onlineNumber, String content, Long sysTime) {
         this.type = type;
@@ -94,6 +102,15 @@ public class Message {
         this.onlineNumber = onlineNumber;
         this.content = content;
         this.sysTime = sysTime;
+    }
+
+    public Message(String type, String nickName, int onlineNumber, String content, Long sysTime, String toName) {
+        this.type = type;
+        this.nickName = nickName;
+        this.onlineNumber = onlineNumber;
+        this.content = content;
+        this.sysTime = sysTime;
+        this.toName = toName;
     }
 
     @Override
@@ -104,6 +121,15 @@ public class Message {
                 ", onlineNumber=" + onlineNumber +
                 ", content='" + content + '\'' +
                 ", sysTime=" + sysTime +
+                ", toName='" + toName + '\'' +
                 '}';
+    }
+
+    public String getToName() {
+        return toName;
+    }
+
+    public void setToName(String toName) {
+        this.toName = toName;
     }
 }
