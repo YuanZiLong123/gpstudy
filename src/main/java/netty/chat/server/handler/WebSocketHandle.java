@@ -1,5 +1,8 @@
 package netty.chat.server.handler;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
@@ -23,6 +26,7 @@ public class WebSocketHandle extends SimpleChannelInboundHandler<TextWebSocketFr
 
     @Override
     protected void channelRead0(ChannelHandlerContext ctx,TextWebSocketFrame msg) throws Exception {
+        System.out.println("接收到消息");
         processor.sendMessage(ctx,decode(msg.text()));
     }
 
@@ -31,7 +35,7 @@ public class WebSocketHandle extends SimpleChannelInboundHandler<TextWebSocketFr
      * @param msg
      * @return
      */
-    public Message decode(String msg){
+    public Message decodeStr(String msg){
         if(null == msg || "".equals(msg.trim())){ return null; }
         try{
             Matcher m = pattern.matcher(msg);
@@ -67,6 +71,17 @@ public class WebSocketHandle extends SimpleChannelInboundHandler<TextWebSocketFr
         }
     }
 
+
+    public Message decode(String msg){
+        try {
+            return (Message) JSONObject.parse(msg);
+        }catch (Exception e){
+            return decodeStr(msg);
+        }
+
+
+    }
+
     @Override
     public void handlerAdded(ChannelHandlerContext ctx) throws Exception { // (2)
         Channel client = ctx.channel();
@@ -84,6 +99,11 @@ public class WebSocketHandle extends SimpleChannelInboundHandler<TextWebSocketFr
         Channel client = ctx.channel();
         String addr = getAddress(client);
         System.out.println("WebSocket Client:" + addr + "上线");
+
+        Message message = new Message();
+
+        message.setType("login");
+        processor.sendMessage(ctx,message);
     }
 
     @Override

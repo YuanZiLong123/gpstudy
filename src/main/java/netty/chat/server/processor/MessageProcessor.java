@@ -1,9 +1,11 @@
 package netty.chat.server.processor;
 
+import com.alibaba.fastjson.JSONObject;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.group.ChannelGroup;
 import io.netty.channel.group.DefaultChannelGroup;
+import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
 import io.netty.util.AttributeKey;
 import io.netty.util.concurrent.GlobalEventExecutor;
 import netty.chat.server.protocol.Message;
@@ -34,8 +36,6 @@ public class MessageProcessor {
 
 
     public void sendMessage(ChannelHandlerContext channelHandlerContext, Message message){
-        Channel channel = channelHandlerContext.channel();
-
         String type = message.getType();
 
         switch (type){
@@ -58,11 +58,15 @@ public class MessageProcessor {
         for (Channel client : onlineUsers) {
             Message request = new Message("chat",getNickName(channel), onlineUsers.size(),message.getContent(),System.currentTimeMillis());
             if (StringUtils.isEmpty(toUser)){
-                client.writeAndFlush(request);
+                String content = JSONObject.toJSONString(request);
+                client.writeAndFlush(new TextWebSocketFrame(content));
+                System.out.println("发送消息成功");
             }else {
                 String nickName = getNickName(client);
                 if (nickName.equals(toUser)){
-                    client.writeAndFlush(request);
+                    String content = JSONObject.toJSONString(request);
+                    client.writeAndFlush(new TextWebSocketFrame(content));
+                    System.out.println("发送消息成功");
                 }
             }
 
@@ -78,7 +82,9 @@ public class MessageProcessor {
         onlineUsers.add(channel);
         for (Channel client : onlineUsers) {
             Message request = new Message("system",getNickName(channel), onlineUsers.size(), getNickName(channel) + "加入聊天室",System.currentTimeMillis());
-            client.writeAndFlush(request);
+            String content = JSONObject.toJSONString(request);
+            client.writeAndFlush(new TextWebSocketFrame(content));
+            System.out.println("发送消息成功");
         }
 
     }
@@ -92,7 +98,9 @@ public class MessageProcessor {
         if(nickName == null){ return; }
         for (Channel channel : onlineUsers) {
             Message request = new Message("system",nickName, onlineUsers.size(), nickName + "离开",System.currentTimeMillis());
-            channel.writeAndFlush(request);
+            String content = JSONObject.toJSONString(request);
+            client.writeAndFlush(new TextWebSocketFrame(content));
+            System.out.println("发送消息成功");
         }
         onlineUsers.remove(client);
 
