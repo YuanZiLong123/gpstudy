@@ -1,6 +1,12 @@
 package mq.activeMQ.broker;
 
 import org.apache.activemq.broker.BrokerService;
+import org.apache.activemq.store.PersistenceAdapter;
+import org.apache.activemq.store.jdbc.JDBCAdapter;
+import org.apache.activemq.store.jdbc.JDBCPersistenceAdapter;
+import org.apache.activemq.store.jdbc.adapter.MySqlJDBCAdapter;
+
+import javax.sql.DataSource;
 
 /**
  * @author admin

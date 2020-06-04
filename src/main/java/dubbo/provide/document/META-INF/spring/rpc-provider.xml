@@ -10,7 +10,7 @@
     <dubbo:monitor protocol="registry"/>
 
     <!--dubbo这个服务所要暴露的服务地址所对应的注册中心-->
-    <dubbo:registry protocol="zookeeper" address="192.168.11.129:2181,192.168.11.137:2181,192.168.11.138:2181,192.168.11.139:2181"/>
+    <dubbo:registry protocol="zookeeper" address="47.98.209.24:2181"/>
 
     <!--当前服务发布所依赖的协议；webserovice、Thrift、Hessain、http-->
     <dubbo:protocol name="dubbo" port="20880"/>
