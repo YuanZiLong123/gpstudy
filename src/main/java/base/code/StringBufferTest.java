@@ -23,5 +23,8 @@ public class StringBufferTest {
     public static void operator(StringBuffer x, StringBuffer y) {
         x.append(y);
         y = x;
+
+        System.out.println(x);
+        System.out.println(y);
     }
 }
