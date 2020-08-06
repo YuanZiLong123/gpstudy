@@ -1,4 +1,4 @@
-package gcd;
+package com.yzl;
 
 import java.util.ArrayList;
 import java.util.List;

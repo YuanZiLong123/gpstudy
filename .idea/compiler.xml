@@ -13,6 +13,7 @@
         <module name="mq" />
         <module name="base" />
         <module name="zookeeper" />
+        <module name="leetcode" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

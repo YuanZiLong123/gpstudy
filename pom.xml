@@ -16,6 +16,7 @@
         <module>zookeeper</module>
         <module>gcd</module>
         <module>netty</module>
+        <module>leetcode</module>
     </modules>
 
     <properties>

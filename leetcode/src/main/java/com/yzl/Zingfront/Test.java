@@ -1,4 +1,4 @@
-package base.leetcode.questionofinterview.Zingfront;
+package com.yzl.Zingfront;
 
 import java.util.ArrayList;
 import java.util.List;

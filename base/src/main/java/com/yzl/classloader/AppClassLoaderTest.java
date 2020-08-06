@@ -1,6 +1,5 @@
-package base.classloader;
+package com.yzl.classloader;
 
-import base.leetcode.questionofinterview.Zingfront.Test;
 
 import java.net.URL;
 import java.net.URLClassLoader;
