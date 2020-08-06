@@ -6,7 +6,17 @@
 
     <groupId>com.yzl</groupId>
     <artifactId>gpstudy</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>spring</module>
+        <module>base</module>
+        <module>dubbo</module>
+        <module>mq</module>
+        <module>zookeeper</module>
+        <module>gcd</module>
+        <module>netty</module>
+    </modules>
 
     <properties>
         <java.version>1.8</java.version>

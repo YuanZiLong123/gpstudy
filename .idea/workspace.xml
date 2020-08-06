@@ -1,10 +1,275 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc141f8d-cd2d-446a-95f6-81dfe9535429" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="cc141f8d-cd2d-446a-95f6-81dfe9535429" name="Default Changelist" comment="java基础学习">
+      <change afterPath="$PROJECT_DIR$/.idea/gpstudy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/pdfbox_2_0_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gcd/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/definition/BeanInitializingObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/definition/BeanInitializingObjectDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/definition/BeanInstantiationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/definition/BeanInstantiationInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/definition/BeanInstantiationObjectByFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/definition/BeanInstantiationObjectByInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/definition/BeanInstantiationObjectByStaticMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/definition/BeanInstantiationObjectDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/definition/DefinitionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/definition/SingletonRegisterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/definition/SingletonRegisterDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/scope/LocalThreadScope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/scope/LocalThreadScopeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/scope/ProtoTypeScopeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/scope/SimpleDateFormatterScopeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/scope/SingletonScopeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/scope/WebScopeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/source/BeanDefinitionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/source/ExternalConfigDependencyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/source/ResolvableDependencyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/source/SingletonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/injection/ApiCreateBeanDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/injection/XmlSpringStartUpDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/lookup/LookUpDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/pojo/SingletonObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/pojo/UserReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/pojo/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/resources/META-INF/spring/bean-instantitation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/resources/META-INF/spring/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assembly/distribution.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/classloader/AppClassLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/classloader/AppClassLoaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/classloader/BootstrapClassLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/classloader/BootstrapClassLoaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/classloader/ExtClassLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/classloader/ExtClassLoaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/classloader/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/classloader/MyClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/classloader/MyClassLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/classloader/MyClassLoaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/code/AsccTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/code/AsccTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/code/FinalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/code/FinalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/code/InitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/code/InitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/code/SonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/code/SonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/code/StringBufferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/code/StringBufferTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/code/StringSplitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/code/StringSplitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/code/SwtichTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/code/SwtichTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/code/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/code/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/executor/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/executor/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/executor/ScheduledExecutorServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/executor/ScheduledExecutorServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/jdk8/OptionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/jdk8/OptionalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/jdk8/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/jdk8/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/jdk8/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/jdk8/StreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/leetcode/SqrtTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/SqrtTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/leetcode/one/OneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/one/OneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/leetcode/questionofinterview/Zingfront/FiveQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/questionofinterview/Zingfront/FiveQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/leetcode/questionofinterview/Zingfront/FourQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/questionofinterview/Zingfront/FourQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/leetcode/questionofinterview/Zingfront/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/questionofinterview/Zingfront/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/leetcode/questionofinterview/Zingfront/OneQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/questionofinterview/Zingfront/OneQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/leetcode/questionofinterview/Zingfront/SevenQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/questionofinterview/Zingfront/SevenQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/leetcode/questionofinterview/Zingfront/SixQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/questionofinterview/Zingfront/SixQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/leetcode/questionofinterview/Zingfront/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/questionofinterview/Zingfront/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/leetcode/questionofinterview/Zingfront/ThreeQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/questionofinterview/Zingfront/ThreeQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/leetcode/questionofinterview/Zingfront/TwoQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/questionofinterview/Zingfront/TwoQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/leetcode/three/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/three/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/leetcode/two/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/two/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/leetcode/two/TwoLinkListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/two/TwoLinkListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/leetcode/two/TwoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/two/TwoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/map/HashMapSameKeyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/map/HashMapSameKeyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/matcher/MatcherGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/matcher/MatcherGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/time/LocalTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/time/LocalTimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dubbo/api/IRpcService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo/src/main/java/com/yzl/api/IRpcService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dubbo/customer/controller/RpcController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo/src/main/java/com/yzl/customer/controller/RpcController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dubbo/customer/document/rpc-customer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo/src/main/java/com/yzl/customer/document/rpc-customer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dubbo/protocol/HttpRequestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo/src/main/java/com/yzl/protocol/HttpRequestModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dubbo/protocol/HttpResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo/src/main/java/com/yzl/protocol/HttpResponseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dubbo/provide/document/META-INF/spring/rpc-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo/src/main/java/com/yzl/provide/document/META-INF/spring/rpc-provider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dubbo/provide/document/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo/src/main/java/com/yzl/provide/document/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dubbo/provide/impl/IRpcServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo/src/main/java/com/yzl/provide/impl/IRpcServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gcd/BeeperControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gcd/src/main/java/com/yzl/BeeperControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gcd/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gcd/src/main/java/com/yzl/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mq/activeMQ/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/yzl/activeMQ/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mq/activeMQ/async/Receive.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/yzl/activeMQ/async/Receive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mq/activeMQ/async/Send.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/yzl/activeMQ/async/Send.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mq/activeMQ/broker/BrokerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/yzl/activeMQ/broker/BrokerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mq/activeMQ/broker/notransactional/QueueReceive.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/yzl/activeMQ/broker/notransactional/QueueReceive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mq/activeMQ/broker/notransactional/QueueSend.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/yzl/activeMQ/broker/notransactional/QueueSend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mq/activeMQ/broker/transactional/TransactionalQueueReceive.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/yzl/activeMQ/broker/transactional/TransactionalQueueReceive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mq/activeMQ/broker/transactional/TransactionalQueueSend.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/yzl/activeMQ/broker/transactional/TransactionalQueueSend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mq/activeMQ/broker/transactional/TransactionalTopicReceive.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/yzl/activeMQ/broker/transactional/TransactionalTopicReceive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mq/activeMQ/broker/transactional/TransactionalTopicReceive2.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/yzl/activeMQ/broker/transactional/TransactionalTopicReceive2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mq/activeMQ/broker/transactional/TransactionalTopicSend.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/yzl/activeMQ/broker/transactional/TransactionalTopicSend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mq/activeMQ/queue/ReceiveQueueActiveMQTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/yzl/activeMQ/queue/ReceiveQueueActiveMQTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mq/activeMQ/queue/SendQueueActiveMQTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/yzl/activeMQ/queue/SendQueueActiveMQTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mq/activeMQ/spring/SpringReceive.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/yzl/activeMQ/spring/SpringReceive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mq/activeMQ/spring/SpringSend.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/yzl/activeMQ/spring/SpringSend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mq/activeMQ/spring/listen/JmsListen.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/yzl/activeMQ/spring/listen/JmsListen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mq/activeMQ/spring/listen/ListenSpringReceive.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/yzl/activeMQ/spring/listen/ListenSpringReceive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mq/activeMQ/topic/ReciverTopicActiveMQTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/yzl/activeMQ/topic/ReciverTopicActiveMQTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mq/activeMQ/topic/ReciverTopicActiveMQTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/yzl/activeMQ/topic/ReciverTopicActiveMQTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mq/activeMQ/topic/ReciverTopicActiveMQTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/yzl/activeMQ/topic/ReciverTopicActiveMQTest3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mq/activeMQ/topic/SendTopicActiveMQTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/java/com/yzl/activeMQ/topic/SendTopicActiveMQTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/chat/client/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/chat/client/ChatClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/chat/client/ChatClient2.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/chat/client/ChatClient2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/chat/client/ChatClient3.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/chat/client/ChatClient3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/chat/client/handler/ChatClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/chat/client/handler/ChatClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/chat/client/handler/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/chat/client/handler/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/chat/server/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/chat/server/ChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/chat/server/ChatService2.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/chat/server/ChatService2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/chat/server/handler/HttpHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/chat/server/handler/HttpHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/chat/server/handler/MessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/chat/server/handler/MessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/chat/server/handler/WebSocketHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/chat/server/handler/WebSocketHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/chat/server/processor/MessageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/chat/server/processor/MessageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/chat/server/protocol/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/chat/server/protocol/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/chat/server/protocol/MyDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/chat/server/protocol/MyDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/chat/server/protocol/MyEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/chat/server/protocol/MyEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/aio/AIOClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/aio/AIOClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/aio/AIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/aio/AIOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/aio/down.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/aio/down.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/bio/BIOClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/bio/BIOClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/bio/BIOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/bio/BIOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/bio/tomcat/GPTomcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/bio/tomcat/GPTomcat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/bio/tomcat/http/GPRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/bio/tomcat/http/GPRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/bio/tomcat/http/GPResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/bio/tomcat/http/GPResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/bio/tomcat/http/GPServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/bio/tomcat/http/GPServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/bio/tomcat/servlet/FirstServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/bio/tomcat/servlet/FirstServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/bio/tomcat/servlet/SecondServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/bio/tomcat/servlet/SecondServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/nio/NIOServerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/nio/NIOServerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/nio/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/nio/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/nio/buffer/BufferDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/nio/buffer/BufferDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/nio/buffer/BufferSlice.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/nio/buffer/BufferSlice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/nio/buffer/BufferWrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/nio/buffer/BufferWrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/nio/buffer/DirectBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/nio/buffer/DirectBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/nio/buffer/IntBufferDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/nio/buffer/IntBufferDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/nio/buffer/MappedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/nio/buffer/MappedBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/nio/buffer/ReadOnlyBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/nio/buffer/ReadOnlyBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/nio/channel/FileInputDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/nio/channel/FileInputDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/nio/channel/FileOutputDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/nio/channel/FileOutputDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/nio/chat/NIOChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/nio/chat/NIOChatClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/io/nio/chat/NIOChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/io/nio/chat/NIOChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/mvc/ChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/mvc/ChatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/mvc/handler/HttpHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/mvc/handler/HttpHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/mvc/servlet/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/mvc/servlet/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/myrpc/api/JdbcInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/myrpc/api/JdbcInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/myrpc/api/MyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/myrpc/api/MyInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/myrpc/consumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/myrpc/consumer/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/myrpc/consumer/proxy/MyRpcProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/myrpc/consumer/proxy/MyRpcProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/myrpc/consumer/proxy/RpcClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/myrpc/consumer/proxy/RpcClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/myrpc/impl/JdbcInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/myrpc/impl/JdbcInterfaceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/myrpc/impl/MyIntefaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/myrpc/impl/MyIntefaceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/myrpc/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/myrpc/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/myrpc/protocol/Protocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/myrpc/protocol/Protocol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/myrpc/provide/Provide.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/myrpc/provide/Provide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/myrpc/provide/RpcHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/myrpc/provide/RpcHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/rpc/api/IRpcHelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/rpc/api/IRpcHelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/rpc/api/IRpcService.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/rpc/api/IRpcService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/rpc/consumer/RpcConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/rpc/consumer/RpcConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/rpc/consumer/proxy/RpcProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/rpc/consumer/proxy/RpcProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/rpc/consumer/proxy/RpcProxyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/rpc/consumer/proxy/RpcProxyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/rpc/protocol/InvokerProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/rpc/protocol/InvokerProtocol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/rpc/provider/RpcHelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/rpc/provider/RpcHelloServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/rpc/provider/RpcServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/rpc/provider/RpcServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/rpc/registry/RegistryHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/rpc/registry/RegistryHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/rpc/registry/RpcRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/rpc/registry/RpcRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/SerizableDome/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/rpc/SerizableDome/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/rmi/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/rpc/rmi/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/rmi/RmiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/rpc/rmi/RmiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/tocmat/FirstServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/rpc/tocmat/FirstServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/tocmat/MyHttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/rpc/tocmat/MyHttpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/tocmat/MyHttpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/rpc/tocmat/MyHttpResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/tocmat/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/rpc/tocmat/MyServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/tocmat/ServlerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/rpc/tocmat/ServlerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/tocmat/TomcatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/rpc/tocmat/TomcatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/webservice/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/rpc/webservice/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/webservice/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/rpc/webservice/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/webservice/SayHello.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/rpc/webservice/SayHello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/webservice/SayHelloResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/rpc/webservice/SayHelloResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/webservice/SayHelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/rpc/webservice/SayHelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/webservice/SayHello_Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/rpc/webservice/SayHello_Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/socket/ChatScoket.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/socket/ChatScoket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/socket/ClientSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/socket/ClientSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/socket/JavaClientSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/socket/JavaClientSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/injection/ApiCreateBeanDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/PdfToWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zookeeper/curator/CuratorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper/src/main/java/com/yzl/curator/CuratorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zookeeper/zkclient/ZkclientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper/src/main/java/com/yzl/zkclient/ZkclientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zookeeper/zkjavaapi/CreateSessionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper/src/main/java/com/yzl/zkjavaapi/CreateSessionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/service-jms.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mq/src/main/resources/META-INF/spring/service-jms.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/spring-application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/resources/META-INF/spring/spring-application.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/web.properties" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/resources/web.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yzl/springcloud/SerizableDome/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yzl/springcloud/curator/CuratorDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yzl/springcloud/rmi/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yzl/springcloud/rmi/RmiClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yzl/springcloud/tocmat/FirstServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yzl/springcloud/tocmat/MyHttpRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yzl/springcloud/tocmat/MyHttpResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yzl/springcloud/tocmat/MyServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yzl/springcloud/tocmat/ServlerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yzl/springcloud/tocmat/TomcatService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yzl/springcloud/tocmat/TomcatService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yzl/springcloud/webservice/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yzl/springcloud/webservice/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yzl/springcloud/webservice/SayHello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yzl/springcloud/webservice/SayHelloResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yzl/springcloud/webservice/SayHelloService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yzl/springcloud/webservice/SayHello_Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yzl/springcloud/zkclient/ZkclientDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yzl/springcloud/zkjavaapi/CreateSessionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/aio/AIOClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/aio/AIOClient$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/aio/AIOClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/aio/AIOServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/aio/AIOServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/aio/down.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/bio/BIOClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/bio/BIOServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/bio/tomcat/GPTomcat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/bio/tomcat/http/GPRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/bio/tomcat/http/GPResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/bio/tomcat/http/GPServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/bio/tomcat/servlet/FirstServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/bio/tomcat/servlet/SecondServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/nio/NIOServerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/nio/TestDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/nio/buffer/BufferDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/nio/buffer/BufferSlice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/nio/buffer/BufferWrap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/nio/buffer/DirectBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/nio/buffer/IntBufferDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/nio/buffer/MappedBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/nio/buffer/ReadOnlyBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/nio/channel/FileInputDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/nio/channel/FileOutputDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/nio/chat/NIOChatClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/nio/chat/NIOChatClient$Reader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/nio/chat/NIOChatClient$Writer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/nio/chat/NIOChatClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/io/nio/chat/NIOChatServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/rpc/api/IRpcHelloService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/rpc/api/IRpcService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/rpc/consumer/RpcConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/rpc/consumer/proxy/RpcProxy$MethodProxy$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/rpc/consumer/proxy/RpcProxy$MethodProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/rpc/consumer/proxy/RpcProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/rpc/consumer/proxy/RpcProxyHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/rpc/protocol/InvokerProtocol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/rpc/provider/RpcHelloServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/rpc/provider/RpcServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/rpc/registry/RegistryHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/rpc/registry/RpcRegistry$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/rpc/registry/RpcRegistry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web.properties" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,294 +279,54 @@
     <SUITE FILE_PATH="coverage/gpstudy$TestDemo.ic" NAME="TestDemo Coverage Results" MODIFIED="1570600140121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>netty.io.nio.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/gpstudy$XmlSpringStartUpDemo.ic" NAME="XmlSpringStartUpDemo Coverage Results" MODIFIED="1596509975823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>spring.injection.*</FILTER>
+    </SUITE>
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="241" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1736237095">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.0" value="5" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.41" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="19" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="115" />
-          <entry key="properties" value="1" />
-          <entry key="xml" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="19" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="115" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="2" />
-          <entry key="java" value="2942" />
-          <entry key="xml" value="104" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="2942" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="XML" value="104" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/tocmat/MyServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/tocmat/TomcatService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#1159#1594#0" expanded="true" />
-                <element signature="e#1593#1594#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/tocmat/FirstServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/tocmat/MyHttpResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/tocmat/ServlerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/http/HttpRequest.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/io/bio/tomcat/GPTomcat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/tocmat/MyHttpRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="904">
-              <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/handler/codec/http/HttpMethod.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="60" column="22" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="22" />
-              <folding>
-                <element signature="e#2286#2287#0" expanded="true" />
-                <element signature="e#2318#2319#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>com.gupaoedu.vip.</find>
-      <find>values</find>
-      <find>name</find>
-    </findStrings>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/netty/tomcat/servlet/FirstServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/tomcat/servlet/SecondServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/tomcat/http/GPRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/tomcat/GPTomcat.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/tomcat/http/GPResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/rpc/api/IRpcService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/nio/buffer/IntBufferDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/nio/buffer/BufferSlice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/nio/buffer/BufferWrap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/nio/buffer/DirectBuffer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/nio/buffer/MappedBuffer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/nio/buffer/ReadOnlyBuffer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/nio/channel/FileOutputDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/nio/NIOServerDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/nio/chat/NIOChatClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/nio/chat/NIOChatServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/nio/buffer/BufferDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/bio/BIOClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/bio/BIOServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/bio/tomcat/http/GPRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/bio/tomcat/http/GPResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/bio/tomcat/http/GPServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/bio/tomcat/servlet/FirstServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/bio/tomcat/servlet/SecondServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/bio/tomcat/GPTomcat.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/aio/AIOClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/aio/AIOServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/rpc/consumer/RpcConsumer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/rpc/consumer/proxy/RpcProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/rpc/provider/RpcHelloServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/rpc/provider/RpcServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/rpc/protocol/InvokerProtocol.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/web.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/nio/channel/FileInputDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/rpc/registry/RegistryHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/aio/down.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/io/nio/TestDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yzl/springcloud/SerizableDome/ApplicationDome.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yzl/springcloud/webservice/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yzl/springcloud/zkjavaapi/CreateSessionDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yzl/springcloud/zkclient/ZkclientDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yzl/springcloud/tocmat/MyHttpResponset.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yzl/springcloud/tocmat/MyServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yzl/springcloud/tocmat/FristServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yzl/springcloud/tocmat/FirstServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yzl/springcloud/curator/CuratorDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yzl/springcloud/tocmat/MyHttpRequest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yzl/springcloud/tocmat/ServlerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yzl/springcloud/tocmat/MyHttpResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yzl/springcloud/tocmat/TomcatService.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="F:/maven/apache-maven-3.5.2" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../maven/apache-maven-3.5.2" />
         <option name="userSettingsFile" value="F:\maven\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="gpstudy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="gpstudy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-438" />
-    <option name="y" value="100" />
-    <option name="width" value="1512" />
-    <option name="height" value="862" />
-  </component>
+  <component name="ProjectId" id="1fhgsI9AKkGc5BMFulNtfOJkG8S" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -309,6 +334,9 @@
           <State />
           <State>
             <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Ali-Check</id>
           </State>
           <State>
             <id>Java</id>
@@ -319,110 +347,73 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>SerializableHasSerialVersionUIDField</id>
+            <id>AlibabaThreadPoolCreation</id>
           </State>
         </selected-state>
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="gpstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gpstudy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gpstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gpstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gpstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gpstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gpstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gpstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gpstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gpstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gpstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gpstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="tocmat" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="ExtclassLoader&#9;PSI&#9;JAVA://sun.misc.Launcher.ExtClassLoader" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589968220031" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596533415714" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zookeeper/src/main/java/com/yzl" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.side.proportion" value="0.35191637" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.yzl.springcloud.tocmat" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.yzl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\gpstudy\src\main\java\com\yzl\springcloud" />
+      <recent name="F:\gpstudy\zookeeper\src\main\java\com\yzl" />
+      <recent name="F:\gpstudy\spring\src\main\resources\META-INF\spring" />
+      <recent name="F:\gpstudy\spring\src\main\resources" />
+      <recent name="F:\gpstudy\src\main\resources\lib" />
       <recent name="F:\gpstudy\src\main\resources" />
-      <recent name="F:\gpstudy\src\main" />
-      <recent name="F:\gpstudy\src\main\java\netty" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yzl.bean.definition" />
+      <recent name="com.yzl.bean.scope" />
+      <recent name="mq.activeMQ.broker.transactional" />
+      <recent name="netty.chat.server.handler" />
+      <recent name="mq.activeMQ.topic" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\gpstudy\netty\src\main\resources" />
+      <recent name="F:\gpstudy\gcd\src\main\java\com\yzl" />
+      <recent name="F:\gpstudy\mq\src\main\java\com\yzl\activeMq" />
+      <recent name="F:\gpstudy\mq\src\main\resources\META-INF\spring" />
+      <recent name="F:\gpstudy\dubbo\src\main\resources\META-INF\spring" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.TomcatService">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzl.springcloud.webservice.Client" />
-      <module name="gpstudy" />
+  <component name="RunManager" selected="Application.SingletonRegisterDemo2">
+    <configuration name="BeanInitializingObjectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzl.bean.definition.BeanInitializingObjectDemo" />
+      <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzl.springcloud.webservice.*" />
+          <option name="PATTERN" value="com.yzl.bean.definition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -430,12 +421,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateSessionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzl.springcloud.zkjavaapi.CreateSessionDemo" />
-      <module name="gpstudy" />
+    <configuration name="BeanInstantiationObjectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzl.bean.definition.BeanInstantiationObjectDemo" />
+      <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzl.springcloud.zkjavaapi.*" />
+          <option name="PATTERN" value="com.yzl.bean.definition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -443,12 +434,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RmiClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzl.springcloud.rmi.RmiClient" />
-      <module name="gpstudy" />
+    <configuration name="SingletonRegisterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzl.bean.definition.SingletonRegisterDemo" />
+      <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzl.springcloud.rmi.*" />
+          <option name="PATTERN" value="com.yzl.bean.definition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -456,12 +447,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TomcatService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzl.springcloud.tocmat.TomcatService" />
-      <module name="gpstudy" />
+    <configuration name="SingletonRegisterDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzl.bean.definition.SingletonRegisterDemo2" />
+      <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzl.springcloud.tocmat.*" />
+          <option name="PATTERN" value="com.yzl.bean.definition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -469,12 +460,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZkclientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzl.springcloud.zkclient.ZkclientDemo" />
-      <module name="gpstudy" />
+    <configuration name="XmlSpringStartUpDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzl.injection.XmlSpringStartUpDemo" />
+      <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzl.springcloud.zkclient.*" />
+          <option name="PATTERN" value="com.yzl.injection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -483,19 +474,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RmiClient" />
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.CreateSessionDemo" />
-      <item itemvalue="Application.ZkclientDemo" />
-      <item itemvalue="Application.TomcatService" />
+      <item itemvalue="Application.XmlSpringStartUpDemo" />
+      <item itemvalue="Application.BeanInitializingObjectDemo" />
+      <item itemvalue="Application.BeanInstantiationObjectDemo" />
+      <item itemvalue="Application.SingletonRegisterDemo" />
+      <item itemvalue="Application.SingletonRegisterDemo2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TomcatService" />
-        <item itemvalue="Application.ZkclientDemo" />
-        <item itemvalue="Application.CreateSessionDemo" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.RmiClient" />
+        <item itemvalue="Application.SingletonRegisterDemo2" />
+        <item itemvalue="Application.SingletonRegisterDemo" />
+        <item itemvalue="Application.BeanInstantiationObjectDemo" />
+        <item itemvalue="Application.BeanInitializingObjectDemo" />
+        <item itemvalue="Application.XmlSpringStartUpDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -522,12 +513,166 @@
       <workItem from="1572423037816" duration="3208000" />
       <workItem from="1572942831555" duration="14000" />
       <workItem from="1573545976053" duration="4936000" />
-      <workItem from="1589960572196" duration="6870000" />
+      <workItem from="1589960572196" duration="8710000" />
+      <workItem from="1590024250613" duration="12217000" />
+      <workItem from="1590110539732" duration="618000" />
+      <workItem from="1590114025017" duration="5249000" />
+      <workItem from="1590139627346" duration="341000" />
+      <workItem from="1590139989311" duration="659000" />
+      <workItem from="1590370906520" duration="4551000" />
+      <workItem from="1590376348979" duration="19258000" />
+      <workItem from="1590455870667" duration="15021000" />
+      <workItem from="1590542867346" duration="4173000" />
+      <workItem from="1590628855171" duration="8620000" />
+      <workItem from="1590715565683" duration="22480000" />
+      <workItem from="1590974504649" duration="24204000" />
+      <workItem from="1591061415765" duration="2330000" />
+      <workItem from="1591068531908" duration="15834000" />
+      <workItem from="1591147264278" duration="2418000" />
+      <workItem from="1591150971573" duration="7045000" />
+      <workItem from="1591161757556" duration="2716000" />
+      <workItem from="1591260561862" duration="1324000" />
+      <workItem from="1591320187309" duration="995000" />
+      <workItem from="1591324186782" duration="637000" />
+      <workItem from="1591339903797" duration="1830000" />
+      <workItem from="1591579304778" duration="1923000" />
+      <workItem from="1591869374427" duration="337000" />
+      <workItem from="1591925070569" duration="4224000" />
+      <workItem from="1592214042722" duration="218000" />
+      <workItem from="1592289324269" duration="6370000" />
+      <workItem from="1592457891980" duration="848000" />
+      <workItem from="1592458758428" duration="3688000" />
+      <workItem from="1592464355345" duration="747000" />
+      <workItem from="1592724406039" duration="4052000" />
+      <workItem from="1593422148869" duration="613000" />
+      <workItem from="1593567596596" duration="284000" />
+      <workItem from="1593754538649" duration="3085000" />
+      <workItem from="1593760492907" duration="6340000" />
+      <workItem from="1594013324184" duration="2415000" />
+      <workItem from="1594614631736" duration="661000" />
+      <workItem from="1595489342785" duration="6760000" />
+      <workItem from="1595643628541" duration="668000" />
+      <workItem from="1596157688239" duration="3731000" />
+      <workItem from="1596443811644" duration="3186000" />
+      <workItem from="1596508478090" duration="11383000" />
+      <workItem from="1596675949334" duration="13000" />
+      <workItem from="1596675999163" duration="4642000" />
+      <workItem from="1596682211258" duration="15382000" />
     </task>
+    <task id="LOCAL-00001" summary="netty学习">
+      <created>1590391091494</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590391091494</updated>
+    </task>
+    <task id="LOCAL-00002" summary="rpc">
+      <created>1590393501745</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590393501745</updated>
+    </task>
+    <task id="LOCAL-00003" summary="java基础学习">
+      <created>1590393553509</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590393553509</updated>
+    </task>
+    <task id="LOCAL-00004" summary="zookeeper学习">
+      <created>1590393626294</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590393626294</updated>
+    </task>
+    <task id="LOCAL-00005" summary="dubbo学习">
+      <created>1590473077922</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590473077922</updated>
+    </task>
+    <task id="LOCAL-00006" summary="java基础学习">
+      <created>1590741971845</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590741971845</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ActiveMQ学习">
+      <created>1590742013564</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590742013564</updated>
+    </task>
+    <task id="LOCAL-00008" summary="websocket学习">
+      <created>1590742070112</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590742070112</updated>
+    </task>
+    <task id="LOCAL-00009" summary="netty学习">
+      <created>1590742090618</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1590742090618</updated>
+    </task>
+    <task id="LOCAL-00010" summary="netty rpc 仿写学习">
+      <created>1591000424609</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591000424610</updated>
+    </task>
+    <task id="LOCAL-00011" summary="netty 聊天websocket学习">
+      <created>1591000474094</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591000474094</updated>
+    </task>
+    <task id="LOCAL-00012" summary="activeMQ学习">
+      <created>1591000491536</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1591000491536</updated>
+    </task>
+    <task id="LOCAL-00013" summary="java学习">
+      <created>1591264993053</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591264993053</updated>
+    </task>
+    <task id="LOCAL-00014" summary="java学习">
+      <created>1591321167899</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591321167899</updated>
+    </task>
+    <task id="LOCAL-00015" summary="java基础学习">
+      <created>1592214078185</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1592214078185</updated>
+    </task>
+    <task id="LOCAL-00016" summary="java基础学习">
+      <created>1596445616054</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1596445616054</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61159000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -538,535 +683,199 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16257995" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41784704" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.29777777" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299435" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3299435" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32777777" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.1570248" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31556502" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32814237" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299435" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3299435" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32814237" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rpc" />
+    <MESSAGE value="zookeeper学习" />
+    <MESSAGE value="dubbo学习" />
+    <MESSAGE value="ActiveMQ学习" />
+    <MESSAGE value="websocket学习" />
+    <MESSAGE value="netty学习" />
+    <MESSAGE value="netty rpc 仿写学习" />
+    <MESSAGE value="netty 聊天websocket学习" />
+    <MESSAGE value="activeMQ学习" />
+    <MESSAGE value="java学习" />
+    <MESSAGE value="java基础学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="java基础学习" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="93" key="#Project_Structure" timestamp="1596683230176">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="93" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1596683230176" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596676291861">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596676291861" />
+    <state x="673" y="319" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596679060310">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="673" y="319" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596679060310" />
+    <state x="710" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1596697339491">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="710" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596697339491" />
+    <state x="689" y="308" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1596676291284">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="308" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596676291284" />
+    <state x="765" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1596699373230">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596699373230" />
+    <state x="736" y="386" width="447" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596676533564">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="736" y="386" width="447" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1596676533564" />
+    <state x="739" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1596699377663">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1596699377663" />
+    <state x="346" y="32" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596695754954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="346" y="32" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596695754954" />
+    <state width="553" height="466" key="DebuggerActiveHint" timestamp="1596677292316">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="553" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1596677292316" />
+    <state width="1876" height="306" key="GridCell.Tab.0.bottom" timestamp="1596699879754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596699879754" />
+    <state width="1876" height="306" key="GridCell.Tab.0.center" timestamp="1596699879753">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="306" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596699879753" />
+    <state width="1876" height="306" key="GridCell.Tab.0.left" timestamp="1596699879753">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="306" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596699879753" />
+    <state width="1876" height="306" key="GridCell.Tab.0.right" timestamp="1596699879754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="306" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596699879754" />
+    <state width="1876" height="293" key="GridCell.Tab.1.bottom" timestamp="1596692768046">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="293" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596692768046" />
+    <state width="1876" height="293" key="GridCell.Tab.1.center" timestamp="1596692768046">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="293" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596692768046" />
+    <state width="1876" height="293" key="GridCell.Tab.1.left" timestamp="1596692768046">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="293" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596692768046" />
+    <state width="1876" height="293" key="GridCell.Tab.1.right" timestamp="1596692768046">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="293" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596692768046" />
+    <state x="461" y="151" key="SettingsEditor" timestamp="1596684135032">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596684135032" />
+    <state x="754" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596701428250">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="754" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596701428250" />
+    <state x="661" y="254" width="929" height="532" key="find.popup" timestamp="1596701056389">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="254" width="929" height="532" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596701056389" />
+    <state x="330" y="129" key="new project wizard" timestamp="1596699267961">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="330" y="129" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1596699267961" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596694129259">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596694129259" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/netty/io/nio/buffer/BufferDemo.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/chat/server/processor/MessageProcessor.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/netty/io/nio/TestDemo.java</url>
-          <line>60</line>
-          <properties />
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/one/OneTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/questionofinterview/Zingfront/FiveQuestion.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/base/src/main/java/com/yzl/classloader/MyClassLoader.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/source/SingletonDemo.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>file.getName().endsWith(&quot;java&quot;)||file.getName().endsWith(&quot;xml&quot;)||file.getName().endsWith(&quot;pom&quot;)</expression-string>
+        <expression-string>cacheStr.contains(String.valueOf(c)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cacheStr.contains(c)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>findLoadedClass(name)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getClassLoadingLock(name)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>two.get(position.get(i))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>twoResult.set(i,two.get(position.get(i)) )</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>method.invoke(clazz, protocol.getValues())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>method.invoke(clazz, protocol.getValues());</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>jdbcInterface.select()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/rpc/consumer/proxy/RpcProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9020">
-          <caret line="468" column="18" selection-start-line="468" selection-start-column="18" selection-end-line="468" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/rpc/consumer/proxy/RpcProxyHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/rpc/registry/RpcRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="55" column="46" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/io/aio/down.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="570" column="31" selection-start-line="570" selection-start-column="16" selection-end-line="570" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/nio/channels/FileChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="384" column="24" selection-start-line="384" selection-start-column="24" selection-end-line="384" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/jre/lib/rt.jar!/sun/nio/ch/FileChannelImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/io/FileOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="260" column="24" selection-start-line="260" selection-start-column="24" selection-end-line="260" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/rmi/UserServer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/SerizableDome/Person.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/SerizableDome/SerializeDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/rmi/UserServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/SerizableDome/ApplicationDome.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/webservice/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/io/nio/TestDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="27" column="37" selection-start-line="9" selection-start-column="44" selection-end-line="27" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/SerizableDome/User.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/rmi/RmiClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/webservice/SayHelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.9/zookeeper-3.4.9.jar!/org/apache/zookeeper/ZooKeeper.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.9/zookeeper-3.4.9.jar!/org/apache/zookeeper/CreateMode.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/101tec/zkclient/0.2/zkclient-0.2.jar!/org/I0Itec/zkclient/ZkClient.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/webservice/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/webservice/ObjectFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/rmi/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/bootstrap/AbstractBootstrap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="107" column="37" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/Channel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/ChannelInitializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/zkjavaapi/CreateSessionDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/zkclient/ZkclientDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/rpc/protocol/InvokerProtocol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <element signature="e#372#373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/curator/CuratorDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gpstudy.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/handler/codec/http/FullHttpResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/handler/codec/http/HttpResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/lang/CharSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/handler/codec/http/DefaultFullHttpResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/handler/codec/http/HttpHeaders.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/handler/codec/http/HttpMessage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/handler/codec/http/HttpHeaderNames.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/handler/codec/http/HttpRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/handler/codec/http/HttpMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="60" column="22" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="22" />
-          <folding>
-            <element signature="e#2286#2287#0" expanded="true" />
-            <element signature="e#2318#2319#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/io/bio/tomcat/GPTomcat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/http/HttpRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/tocmat/FirstServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/tocmat/ServlerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/tocmat/MyServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/tocmat/MyHttpResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/tocmat/MyHttpRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="904">
-          <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzl/springcloud/tocmat/TomcatService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#1159#1594#0" expanded="true" />
-            <element signature="e#1593#1594#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>gpstudy</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: io.netty:netty-all:4.1.6.Final</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
