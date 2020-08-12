@@ -1,4 +1,4 @@
-package base.leetcode.two;
+package com.yzl.two;
 
 /**
  * @author admin

@@ -1,7 +1,6 @@
-package base.jdk8;
+package com.yzl.jdk8;
 
 
-import org.apache.commons.lang3.ArrayUtils;
 
 import java.util.*;
 import java.util.stream.Collectors;

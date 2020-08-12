@@ -2,36 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc141f8d-cd2d-446a-95f6-81dfe9535429" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/classloader/CastNullTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/lifecycle/AnnotatedBeanDefinitionReaderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/lifecycle/AnnotationInitializationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/lifecycle/ApplicationContentDestroyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/lifecycle/AwareDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/lifecycle/ClassLoaderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/lifecycle/InitalizationAwareBeanPostProcessorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/lifecycle/InstantiationAwareBeanPostProcessorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/lifecycle/MergedBeanDefinitionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/lifecycle/MyApplicationListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/lifecycle/MyDestroyAwareBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/lifecycle/MyInitializationAwareBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/lifecycle/MyInstantiationAwareBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/lifecycle/PropertiesBeanDefinitionReaderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/lifecycle/XmlBeanDefinitionReaderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/lifecycle/entity/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/lifecycle/entity/SuperUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/lifecycle/entity/SuperUserProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/lifecycle/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/lifecycle/entity/UserAware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/lifecycle/entity/UserHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/resources/META-INF/spring/bean-application-instantiation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/resources/META-INF/spring/bean-aware.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/resources/META-INF/spring/bean-instantiation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/resources/META-INF/spring/bean-lifecycle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/resources/META-INF/spring/user.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/yzl/classloader/AppClassLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/classloader/AppClassLoaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/SqrtTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/SqrtTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/one/OneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/one/OneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/questionofinterview/Zingfront/FiveQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/Zingfront/FiveQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/questionofinterview/Zingfront/FourQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/Zingfront/FourQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/questionofinterview/Zingfront/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/Zingfront/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/questionofinterview/Zingfront/OneQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/Zingfront/OneQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/questionofinterview/Zingfront/SevenQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/Zingfront/SevenQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/questionofinterview/Zingfront/SixQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/Zingfront/SixQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/questionofinterview/Zingfront/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/Zingfront/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/questionofinterview/Zingfront/ThreeQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/Zingfront/ThreeQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/questionofinterview/Zingfront/TwoQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/Zingfront/TwoQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/three/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/three/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/two/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/two/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/two/TwoLinkListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/two/TwoLinkListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/yzl/leetcode/two/TwoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/two/TwoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/yzl/jdk8/OptionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/jdk8/OptionalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/yzl/jdk8/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/com/yzl/jdk8/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gcd/src/main/java/com/yzl/BeeperControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gcd/src/main/java/com/yzl/BeeperControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gcd/src/main/java/com/yzl/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gcd/src/main/java/com/yzl/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/three/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/three/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/two/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/two/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/two/TwoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main/java/com/yzl/two/TwoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mq/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/netty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/chat/server/handler/WebSocketHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/chat/server/handler/WebSocketHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/rpc/protocol/InvokerProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/rpc/protocol/InvokerProtocol.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/definition/BeanInitializingObjectDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/definition/BeanInitializingObjectDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/definition/BeanInstantiationObjectByInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/definition/BeanInstantiationObjectByInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/definition/BeanInstantiationObjectDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/definition/BeanInstantiationObjectDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/definition/SingletonRegisterDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/definition/SingletonRegisterDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/yzl/lookup/LookUpDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/yzl/lookup/LookUpDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zookeeper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/gpstudy$TestDemo.ic" NAME="TestDemo Coverage Results" MODIFIED="1570600140121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -63,6 +89,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -83,6 +110,9 @@
         <option name="userSettingsFile" value="F:\maven\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1fhgsI9AKkGc5BMFulNtfOJkG8S" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -125,7 +155,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596533415714" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/zookeeper/src/main/java/com/yzl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring/src/main/resources/META-INF/spring" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -137,26 +167,9 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.35191637" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.yzl" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\gpstudy\zookeeper\src\main\java\com\yzl" />
-      <recent name="F:\gpstudy\spring\src\main\resources\META-INF\spring" />
-      <recent name="F:\gpstudy\spring\src\main\resources" />
-      <recent name="F:\gpstudy\src\main\resources\lib" />
-      <recent name="F:\gpstudy\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.yzl.bean.definition" />
-      <recent name="com.yzl.bean.scope" />
-      <recent name="mq.activeMQ.broker.transactional" />
-      <recent name="netty.chat.server.handler" />
-      <recent name="mq.activeMQ.topic" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\gpstudy\netty\src\main\resources" />
       <recent name="F:\gpstudy\gcd\src\main\java\com\yzl" />
@@ -164,14 +177,31 @@
       <recent name="F:\gpstudy\mq\src\main\resources\META-INF\spring" />
       <recent name="F:\gpstudy\dubbo\src\main\resources\META-INF\spring" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.yzl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yzl.bean.lifecycle" />
+      <recent name="com.yzl.bean.definition" />
+      <recent name="com.yzl.bean.scope" />
+      <recent name="mq.activeMQ.broker.transactional" />
+      <recent name="netty.chat.server.handler" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\gpstudy\spring\src\main\resources\META-INF\spring" />
+      <recent name="F:\gpstudy\zookeeper\src\main\java\com\yzl" />
+      <recent name="F:\gpstudy\spring\src\main\resources" />
+      <recent name="F:\gpstudy\src\main\resources\lib" />
+      <recent name="F:\gpstudy\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.SingletonRegisterDemo2">
-    <configuration name="BeanInitializingObjectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzl.bean.definition.BeanInitializingObjectDemo" />
+  <component name="RunManager" selected="Application.InstantiationAwareBeanPostProcessorDemo">
+    <configuration name="AnnotatedBeanDefinitionReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzl.bean.lifecycle.AnnotatedBeanDefinitionReaderDemo" />
       <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzl.bean.definition.*" />
+          <option name="PATTERN" value="com.yzl.bean.lifecycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,12 +209,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanInstantiationObjectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzl.bean.definition.BeanInstantiationObjectDemo" />
+    <configuration name="AnnotationInitializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzl.bean.lifecycle.AnnotationInitializationDemo" />
       <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzl.bean.definition.*" />
+          <option name="PATTERN" value="com.yzl.bean.lifecycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +222,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonRegisterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzl.bean.definition.SingletonRegisterDemo" />
+    <configuration name="ApplicationContentDestroyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzl.bean.lifecycle.ApplicationContentDestroyDemo" />
       <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzl.bean.definition.*" />
+          <option name="PATTERN" value="com.yzl.bean.lifecycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,12 +235,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonRegisterDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzl.bean.definition.SingletonRegisterDemo2" />
+    <configuration name="AwareDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzl.bean.lifecycle.AwareDemo" />
       <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzl.bean.definition.*" />
+          <option name="PATTERN" value="com.yzl.bean.lifecycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,12 +248,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XmlSpringStartUpDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzl.injection.XmlSpringStartUpDemo" />
+    <configuration name="InstantiationAwareBeanPostProcessorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzl.bean.lifecycle.InstantiationAwareBeanPostProcessorDemo" />
       <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yzl.injection.*" />
+          <option name="PATTERN" value="com.yzl.bean.lifecycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,19 +262,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.XmlSpringStartUpDemo" />
-      <item itemvalue="Application.BeanInitializingObjectDemo" />
-      <item itemvalue="Application.BeanInstantiationObjectDemo" />
-      <item itemvalue="Application.SingletonRegisterDemo" />
-      <item itemvalue="Application.SingletonRegisterDemo2" />
+      <item itemvalue="Application.InstantiationAwareBeanPostProcessorDemo" />
+      <item itemvalue="Application.AnnotationInitializationDemo" />
+      <item itemvalue="Application.AnnotatedBeanDefinitionReaderDemo" />
+      <item itemvalue="Application.AwareDemo" />
+      <item itemvalue="Application.ApplicationContentDestroyDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SingletonRegisterDemo2" />
-        <item itemvalue="Application.SingletonRegisterDemo" />
-        <item itemvalue="Application.BeanInstantiationObjectDemo" />
-        <item itemvalue="Application.BeanInitializingObjectDemo" />
-        <item itemvalue="Application.XmlSpringStartUpDemo" />
+        <item itemvalue="Application.InstantiationAwareBeanPostProcessorDemo" />
+        <item itemvalue="Application.AwareDemo" />
+        <item itemvalue="Application.ApplicationContentDestroyDemo" />
+        <item itemvalue="Application.AnnotationInitializationDemo" />
+        <item itemvalue="Application.AnnotatedBeanDefinitionReaderDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +345,15 @@
       <workItem from="1596508478090" duration="11383000" />
       <workItem from="1596675949334" duration="13000" />
       <workItem from="1596675999163" duration="4642000" />
-      <workItem from="1596682211258" duration="17233000" />
+      <workItem from="1596682211258" duration="18878000" />
+      <workItem from="1596762445590" duration="16875000" />
+      <workItem from="1597021436474" duration="1544000" />
+      <workItem from="1597043900475" duration="2718000" />
+      <workItem from="1597108727477" duration="1605000" />
+      <workItem from="1597110349474" duration="3479000" />
+      <workItem from="1597123329505" duration="797000" />
+      <workItem from="1597196055570" duration="252000" />
+      <workItem from="1597196327400" duration="18389000" />
     </task>
     <task id="LOCAL-00001" summary="netty学习">
       <created>1590391091494</created>
@@ -436,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596701490725</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="java模块分类">
+      <created>1596704478518</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1596704478518</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -479,22 +524,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="673" y="319" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596679060310" />
-    <state x="710" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1596697339491">
+    <state x="710" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1597218916097">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="710" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596697339491" />
+    <state x="710" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597218916097" />
     <state x="689" y="308" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1596676291284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="308" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596676291284" />
-    <state x="765" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1596699373230">
+    <state x="765" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1597197907882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596699373230" />
-    <state x="736" y="386" width="447" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596676533564">
+    <state x="765" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597197907882" />
+    <state x="736" y="386" width="447" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1597199727392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="736" y="386" width="447" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1596676533564" />
+    <state x="736" y="386" width="447" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1597199727392" />
     <state x="739" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1596701633218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -503,94 +548,91 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="346" y="32" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596695754954" />
-    <state x="359" y="82" key="CommitChangelistDialog2" timestamp="1596701487631">
+    <state x="715" y="220" key="#xdebugger.evaluate" timestamp="1597215122150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="359" y="82" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596701487631" />
-    <state width="553" height="466" key="DebuggerActiveHint" timestamp="1596677292316">
+    <state x="715" y="220" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1597215122150" />
+    <state x="359" y="82" key="CommitChangelistDialog2" timestamp="1596704477503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="553" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1596677292316" />
-    <state width="1876" height="306" key="GridCell.Tab.0.bottom" timestamp="1596703679648">
+    <state x="359" y="82" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596704477503" />
+    <state width="746" height="483" key="DebuggerActiveHint" timestamp="1597219319397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596703679648" />
-    <state width="1876" height="306" key="GridCell.Tab.0.center" timestamp="1596703679647">
+    <state width="746" height="483" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1597219319397" />
+    <state x="734" y="260" key="FileChooserDialogImpl" timestamp="1597022869568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="306" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596703679647" />
-    <state width="1876" height="306" key="GridCell.Tab.0.left" timestamp="1596703679647">
+    <state x="734" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597022869568" />
+    <state width="1876" height="265" key="GridCell.Tab.0.bottom" timestamp="1597219170337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="306" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596703679647" />
-    <state width="1876" height="306" key="GridCell.Tab.0.right" timestamp="1596703679648">
+    <state width="1876" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597219170337" />
+    <state width="1876" height="265" key="GridCell.Tab.0.center" timestamp="1597219170336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="306" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596703679648" />
-    <state width="1876" height="293" key="GridCell.Tab.1.bottom" timestamp="1596692768046">
+    <state width="1876" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597219170336" />
+    <state width="1876" height="265" key="GridCell.Tab.0.left" timestamp="1597219170336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="293" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596692768046" />
-    <state width="1876" height="293" key="GridCell.Tab.1.center" timestamp="1596692768046">
+    <state width="1876" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597219170336" />
+    <state width="1876" height="265" key="GridCell.Tab.0.right" timestamp="1597219170337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="293" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596692768046" />
-    <state width="1876" height="293" key="GridCell.Tab.1.left" timestamp="1596692768046">
+    <state width="1876" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597219170337" />
+    <state width="1876" height="265" key="GridCell.Tab.1.bottom" timestamp="1597219170944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="293" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596692768046" />
-    <state width="1876" height="293" key="GridCell.Tab.1.right" timestamp="1596692768046">
+    <state width="1876" height="265" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597219170944" />
+    <state width="1876" height="265" key="GridCell.Tab.1.center" timestamp="1597219170943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="293" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596692768046" />
-    <state x="461" y="151" key="SettingsEditor" timestamp="1596684135032">
+    <state width="1876" height="265" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597219170943" />
+    <state width="1876" height="265" key="GridCell.Tab.1.left" timestamp="1597219170943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596684135032" />
-    <state x="754" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596701428250">
+    <state width="1876" height="265" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597219170943" />
+    <state width="1876" height="265" key="GridCell.Tab.1.right" timestamp="1597219170943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="754" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596701428250" />
-    <state x="661" y="254" width="964" height="532" key="find.popup" timestamp="1596704072812">
+    <state width="1876" height="265" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597219170943" />
+    <state x="461" y="151" key="SettingsEditor" timestamp="1597123521510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="254" width="964" height="532" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596704072812" />
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597123521510" />
+    <state x="754" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596704458112">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="754" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596704458112" />
+    <state x="383" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1597218028283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="383" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1597218028283" />
+    <state x="661" y="254" width="1047" height="532" key="find.popup" timestamp="1596766626738">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="254" width="1047" height="532" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596766626738" />
     <state x="330" y="129" key="new project wizard" timestamp="1596701600119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="330" y="129" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1596701600119" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596694129259">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597200502442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596694129259" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597200502442" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/netty/src/main/java/com/yzl/netty/chat/server/processor/MessageProcessor.java</url>
-          <line>101</line>
-          <option name="timeStamp" value="53" />
+          <url>file://$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/lifecycle/entity/UserAware.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="187" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/leetcode/src/main/java/com/yzl/one/OneTest.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/leetcode/src/main/java/com/yzl/Zingfront/FiveQuestion.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/base/src/main/java/com/yzl/classloader/MyClassLoader.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring/src/main/java/com/yzl/bean/source/SingletonDemo.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="78" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>814</line>
+          <option name="timeStamp" value="188" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -598,54 +640,5 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>cacheStr.contains(String.valueOf(c)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cacheStr.contains(c)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>findLoadedClass(name)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>getClassLoadingLock(name)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>two.get(position.get(i))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>twoResult.set(i,two.get(position.get(i)) )</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>method.invoke(clazz, protocol.getValues())</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>method.invoke(clazz, protocol.getValues());</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>jdbcInterface.select()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>

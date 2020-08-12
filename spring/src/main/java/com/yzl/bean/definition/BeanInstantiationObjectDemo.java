@@ -1,6 +1,7 @@
 package com.yzl.bean.definition;
 
-import org.apache.xbean.spring.context.ClassPathXmlApplicationContext;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * bean的实例demo

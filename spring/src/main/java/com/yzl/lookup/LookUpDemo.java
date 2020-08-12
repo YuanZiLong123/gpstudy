@@ -1,7 +1,8 @@
 package com.yzl.lookup;
 
 import com.yzl.pojo.User;
-import org.apache.xbean.spring.context.ClassPathXmlApplicationContext;
+import org.springframework.beans.factory.ObjectProvider;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * @author admin
@@ -18,5 +19,6 @@ public class LookUpDemo {
         classPathXmlApplicationContext.getBean(User.class);
 
         classPathXmlApplicationContext.getBean("user",User.class);
+
     }
 }

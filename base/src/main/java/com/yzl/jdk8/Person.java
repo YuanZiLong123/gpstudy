@@ -1,4 +1,5 @@
-package base.jdk8;
+package com.yzl.jdk8;
+
 
 import lombok.Data;
 import lombok.experimental.Accessors;

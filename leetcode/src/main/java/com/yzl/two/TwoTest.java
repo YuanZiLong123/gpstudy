@@ -1,6 +1,5 @@
-package base.leetcode.two;
+package com.yzl.two;
 
-import lombok.val;
 
 /**
  * @author admin

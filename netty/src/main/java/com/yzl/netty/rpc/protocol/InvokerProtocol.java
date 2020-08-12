@@ -1,13 +1,11 @@
 package com.yzl.netty.rpc.protocol;
 
-import lombok.Data;
 
 import java.io.Serializable;
 
 /**
  * 自定义传输协议
  */
-@Data
 public class InvokerProtocol implements Serializable {
 
     private String className;//类名
