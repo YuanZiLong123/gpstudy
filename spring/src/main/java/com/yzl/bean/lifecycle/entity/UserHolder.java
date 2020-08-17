@@ -15,7 +15,7 @@ import javax.annotation.PreDestroy;
  * @date 2020-08-11 9:53
  */
 @Data
-public class UserHolder  implements InitializingBean, DisposableBean {
+public class UserHolder  implements InitializingBean, DisposableBean,SmartInitializingSingleton {
 
     private final  User user;
 
@@ -86,6 +86,13 @@ public class UserHolder  implements InitializingBean, DisposableBean {
         System.out.println("myDestroy() 自定义销毁");
     }
 
+    @Override
+    public void afterSingletonsInstantiated() {
+        this.version =7;
+        this.describe = "版本升级 6->7";
+
+        System.out.println("init() 自定义"+this.describe);
+    }
 }
 
 

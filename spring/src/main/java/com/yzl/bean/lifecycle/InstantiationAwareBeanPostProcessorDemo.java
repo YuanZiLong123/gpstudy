@@ -36,8 +36,10 @@ public class InstantiationAwareBeanPostProcessorDemo {
         //User user = defaultListableBeanFactory.getBean("user", User.class);
 
         //SuperUser superUser  = defaultListableBeanFactory.getBean("superUser", SuperUser.class);
+        defaultListableBeanFactory.preInstantiateSingletons();
 
-        UserHolder userHolder  = defaultListableBeanFactory.getBean("userHolder", UserHolder.class);
+
+        UserHolder userHolder  = defaultListableBeanFactory.getBean( UserHolder.class);
 
       //  System.out.println(user);
         //System.out.println(superUser);

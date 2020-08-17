@@ -2,6 +2,7 @@ package com.yzl.bean.definition;
 
 import com.yzl.pojo.User;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
+import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.support.GenericBeanDefinition;
 
 /**
@@ -11,6 +12,8 @@ import org.springframework.beans.factory.support.GenericBeanDefinition;
 public class DefinitionDemo {
 
     public static void main(String[] args) {
+
+        DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
 
         //1.bean的定义
         BeanDefinitionBuilder beanDefinitionBuilder = BeanDefinitionBuilder.genericBeanDefinition(User.class);

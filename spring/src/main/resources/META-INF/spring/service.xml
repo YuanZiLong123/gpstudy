@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:service="http://service.yzl.com/schema/service"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+http://service.yzl.com/schema/service
+http://service.yzl.com/schema/service.xsd">
+
+<!--
+    <bean id="user" class="com.yzl.pojo.User">
+        <property name="id" value="1"></property>
+        <property name="name" value="法外狂徒-张三"></property>
+        <property name="age" value="28"></property>
+    </bean>-->
+
+    <service:user id="1" name="小马哥" age="30"/>
+
+
+</beans>
