@@ -1,11 +1,9 @@
 package com.yzl.bean.lifecycle.entity;
 
 import lombok.Data;
-import org.springframework.beans.BeansException;
-import org.springframework.beans.factory.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor;
-import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.DisposableBean;
+import org.springframework.beans.factory.InitializingBean;
+import org.springframework.beans.factory.SmartInitializingSingleton;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;

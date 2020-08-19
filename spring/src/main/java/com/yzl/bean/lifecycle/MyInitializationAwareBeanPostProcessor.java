@@ -1,14 +1,11 @@
 package com.yzl.bean.lifecycle;
 
 import com.yzl.bean.lifecycle.entity.City;
-import com.yzl.bean.lifecycle.entity.SuperUser;
 import com.yzl.bean.lifecycle.entity.User;
 import com.yzl.bean.lifecycle.entity.UserHolder;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeansException;
-import org.springframework.beans.PropertyValues;
 import org.springframework.beans.factory.config.BeanPostProcessor;
-import org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor;
 
 /**
  *

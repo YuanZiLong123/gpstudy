@@ -1,9 +1,9 @@
 package com.yzl.bean.source;
 
+import com.yzl.pojo.User;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import com.yzl.pojo.User;
 
 /**
  * @author admin

@@ -1,6 +1,5 @@
 package com.yzl.bean.lifecycle;
 
-import com.yzl.bean.lifecycle.entity.UserHolder;
 import org.springframework.context.annotation.CommonAnnotationBeanPostProcessor;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

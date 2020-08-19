@@ -1,7 +1,6 @@
 package com.yzl.lookup;
 
 import com.yzl.pojo.User;
-import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**

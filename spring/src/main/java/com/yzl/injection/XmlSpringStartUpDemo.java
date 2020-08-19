@@ -1,10 +1,10 @@
 package com.yzl.injection;
 
+import com.yzl.pojo.User;
+import com.yzl.pojo.UserRepository;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Primary;
-import com.yzl.pojo.User;
-import com.yzl.pojo.UserRepository;
 
 /**
  * @author admin

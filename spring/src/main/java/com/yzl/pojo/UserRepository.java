@@ -1,9 +1,7 @@
 package com.yzl.pojo;
 
-import com.yzl.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Repository;
 
 /**
  * @author admin

@@ -1,9 +1,9 @@
 package com.yzl.bean.source;
 
+import com.yzl.pojo.SingletonObject;
 import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import com.yzl.pojo.SingletonObject;
 
 /**
  * @author admin

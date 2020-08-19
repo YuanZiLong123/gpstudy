@@ -1,10 +1,8 @@
 package com.yzl.metadata;
 
-import com.yzl.metadata.service.IUserService;
 import com.yzl.pojo.User;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * @author admin

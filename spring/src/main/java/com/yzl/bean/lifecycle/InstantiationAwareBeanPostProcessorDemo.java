@@ -1,13 +1,9 @@
 package com.yzl.bean.lifecycle;
 
-import com.yzl.bean.lifecycle.entity.SuperUser;
-import com.yzl.bean.lifecycle.entity.User;
 import com.yzl.bean.lifecycle.entity.UserHolder;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.context.annotation.CommonAnnotationBeanPostProcessor;
-
-import java.beans.PropertyDescriptor;
 
 /**
  * @author admin

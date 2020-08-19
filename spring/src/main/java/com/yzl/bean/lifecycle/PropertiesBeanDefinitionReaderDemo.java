@@ -1,10 +1,8 @@
 package com.yzl.bean.lifecycle;
 
-import com.yzl.bean.lifecycle.entity.SuperUser;
 import com.yzl.bean.lifecycle.entity.User;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.support.PropertiesBeanDefinitionReader;
-import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.EncodedResource;

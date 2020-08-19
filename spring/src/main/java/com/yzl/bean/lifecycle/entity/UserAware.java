@@ -2,14 +2,11 @@ package com.yzl.bean.lifecycle.entity;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.*;
-import org.springframework.beans.factory.config.EmbeddedValueResolver;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.context.*;
 import org.springframework.core.env.Environment;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.util.StringValueResolver;
-
-import java.util.Iterator;
 
 /**
  * @author admin

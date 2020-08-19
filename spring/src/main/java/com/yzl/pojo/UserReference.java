@@ -1,7 +1,5 @@
 package com.yzl.pojo;
 
-import com.yzl.pojo.User;
-
 /**
  * @author admin
  * @date 2020-08-04 13:15

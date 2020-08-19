@@ -10,8 +10,6 @@ import org.springframework.beans.MutablePropertyValues;
 import org.springframework.beans.PropertyValues;
 import org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor;
 
-import java.beans.PropertyDescriptor;
-
 /**
  *
  * instantiation  实例化 没有对象生成

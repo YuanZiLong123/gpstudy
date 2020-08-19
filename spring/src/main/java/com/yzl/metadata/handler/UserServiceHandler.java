@@ -1,7 +1,6 @@
 package com.yzl.metadata.handler;
 
 import org.springframework.beans.factory.xml.NamespaceHandlerSupport;
-import org.xml.sax.helpers.NamespaceSupport;
 
 /**
  * @author admin

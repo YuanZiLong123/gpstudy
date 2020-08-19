@@ -3,7 +3,6 @@ package com.yzl.bean.lifecycle;
 import com.yzl.bean.lifecycle.entity.UserHolder;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.core.io.ResourceLoader;
 
 /**
  * @author admin

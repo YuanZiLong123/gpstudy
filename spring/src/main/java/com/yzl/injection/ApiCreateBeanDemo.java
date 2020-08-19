@@ -1,11 +1,10 @@
 package com.yzl.injection;
 
+import com.yzl.pojo.User;
+import com.yzl.pojo.UserReference;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
-import com.yzl.pojo.User;
-import com.yzl.pojo.UserReference;
-import com.yzl.pojo.UserRepository;
 
 /**
  * @author admin

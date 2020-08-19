@@ -1,9 +1,5 @@
 package com.yzl.bean.lifecycle.entity;
 
-import org.springframework.stereotype.Component;
-
-import javax.annotation.PostConstruct;
-import java.util.ArrayList;
 import java.util.List;
 
 /**

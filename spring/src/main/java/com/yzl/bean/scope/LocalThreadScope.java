@@ -6,10 +6,8 @@ import org.springframework.beans.factory.config.Scope;
 import org.springframework.core.NamedThreadLocal;
 import org.springframework.lang.NonNull;
 
-import java.lang.reflect.TypeVariable;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Optional;
 
 /**
  * 线程的生命周期    线程中bean是同一个

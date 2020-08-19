@@ -2,7 +2,8 @@ package com.yzl.metadata;
 
 import com.yzl.metadata.entity.AnnotationPojo;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
-import org.springframework.context.annotation.*;
+import org.springframework.context.annotation.AnnotatedBeanDefinitionReader;
+import org.springframework.context.annotation.CommonAnnotationBeanPostProcessor;
 
 /**
  * @author admin

@@ -1,7 +1,6 @@
 package com.yzl.bean.lifecycle;
 
 import com.yzl.bean.lifecycle.entity.UserHolder;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.DestructionAwareBeanPostProcessor;
 
