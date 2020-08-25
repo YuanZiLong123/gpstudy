@@ -1,4 +1,4 @@
-package zookeeper.curator;
+package com.yzl.curator;
 
 
 import org.apache.curator.framework.CuratorFramework;

@@ -1,7 +1,7 @@
-package dubbo.customer.controller;
+package com.yzl.customer.controller;
 
-import dubbo.api.IRpcService;
-import dubbo.protocol.HttpRequestModel;
+import com.yzl.api.IRpcService;
+import com.yzl.protocol.HttpRequestModel;
 
 import javax.annotation.Resource;
 

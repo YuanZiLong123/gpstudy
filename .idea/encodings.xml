@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/base/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gcd/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/leetcode/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mq/src/main/java" charset="UTF-8" />
@@ -12,6 +13,9 @@
     <file url="file://$PROJECT_DIR$/netty/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/utils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/utils/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zookeeper/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

@@ -9,6 +9,8 @@
         <module name="gcd" />
         <module name="dubbo" />
         <module name="netty" />
+        <module name="springboot" />
+        <module name="utils" />
         <module name="spring" />
         <module name="mq" />
         <module name="base" />

@@ -1,4 +1,4 @@
-package zookeeper.zkclient;
+package com.yzl.zkclient;
 
 import org.I0Itec.zkclient.ZkClient;
 import org.apache.zookeeper.CreateMode;

@@ -1,4 +1,4 @@
-package dubbo.protocol;
+package com.yzl.protocol;
 
 
 /**

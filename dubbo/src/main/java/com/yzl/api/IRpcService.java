@@ -1,7 +1,8 @@
-package dubbo.api;
+package com.yzl.api;
 
-import dubbo.protocol.HttpRequestModel;
-import dubbo.protocol.HttpResponseModel;
+
+import com.yzl.protocol.HttpRequestModel;
+import com.yzl.protocol.HttpResponseModel;
 
 /**
  * @author admin

@@ -1,5 +1,6 @@
-package base.map;
+package com.yzl.map;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 

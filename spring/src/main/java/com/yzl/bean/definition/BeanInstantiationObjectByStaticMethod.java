@@ -7,7 +7,7 @@ package com.yzl.bean.definition;
 public class BeanInstantiationObjectByStaticMethod {
 
 
-    public static BeanInstantiationObjectByStaticMethod BeanInstantiationObjectByStaticMethod(){
+    public static BeanInstantiationObjectByStaticMethod beanInstantiationObjectByStaticMethod(){
 
         System.out.println("bean实例化 根据静态方法");
         return new BeanInstantiationObjectByStaticMethod();

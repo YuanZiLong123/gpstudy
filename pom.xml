@@ -17,6 +17,8 @@
         <module>gcd</module>
         <module>netty</module>
         <module>leetcode</module>
+        <module>utils</module>
+        <module>springboot</module>
     </modules>
 
     <properties>
@@ -160,6 +162,13 @@
                 <artifactId>spring-web</artifactId>
                 <version>${spring.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-aop</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+
 
             <dependency>
                 <groupId>org.apache.commons</groupId>

@@ -28,5 +28,5 @@
     init-method="initByMyself" destroy-method="destroyByMyself"></bean>
 
 
-    <bean id="beanInstantiationObject" class="com.yzl.bean.definition.BeanInstantiationObjectByStaticMethod" factory-method="createBeanInstantiationObject"></bean>
+    <bean id="beanInstantiationObject" class="com.yzl.bean.definition.BeanInstantiationObjectByStaticMethod" factory-method="beanInstantiationObjectByStaticMethod"></bean>
 </beans>

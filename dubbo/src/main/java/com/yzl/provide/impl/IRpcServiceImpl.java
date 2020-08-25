@@ -1,8 +1,8 @@
-package dubbo.provide.impl;
+package com.yzl.provide.impl;
 
-import dubbo.api.IRpcService;
-import dubbo.protocol.HttpRequestModel;
-import dubbo.protocol.HttpResponseModel;
+import com.yzl.api.IRpcService;
+import com.yzl.protocol.HttpRequestModel;
+import com.yzl.protocol.HttpResponseModel;
 
 /**
  * @author admin
