@@ -26,7 +26,6 @@ public class ShallowCloneDome implements  Cloneable {
         this.name = name;
     }
 
-    @Override
     public ShallowCloneDome clone(){
         ShallowCloneDome shallowCloneDome = new ShallowCloneDome();
         shallowCloneDome.setName(this.name);
